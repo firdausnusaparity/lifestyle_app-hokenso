@@ -15,7 +15,7 @@ Beside cordova documentation itself.
    -then the other 3 component can be on other router (as in router/index.js)
    -the bottom nav bar will be available to all pages thus located in app.vue
    -Ive decided to used VueX to feed the data to the Challenges component
-   -for the component chalenges's data load, I used v-for iteration and bind all the challenges data(save is json object in src/assets/challenges.js) -
+   -for the component chalenges's data load, I used v-for iteration and bind all the challenges data(save is json object in src/assets/challenges.js to mimic as if an api request from backend) -
    -then use mapstate to grab all the 'challenges' to the challenges component.
    -style it with html and css.
    -the search bar, I just v-model the input and use the javascript filter and match method. filter before iterating.
@@ -35,4 +35,14 @@ npm run build
 
 # build for production and view the bundle analyzer report
 npm run build --report
+
+# Running on Android
+cordova platform add android
+
+cordova run android
+
+# Running on iOS
+cordova platform add ios
+
+cordova build ios
 ```

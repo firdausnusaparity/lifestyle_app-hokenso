@@ -119,7 +119,7 @@ a {
 .top-left {
   position: absolute;
   top: 8px;
-  left: 16px;
+  left: 14px;
 }
 
 .top-right {
@@ -131,7 +131,7 @@ a {
 .bottom-left-heading {
   position: absolute;
   bottom: 28%;
-  left: 16px;
+  left: 14px;
   font-family: "Lucida Console";
   color: #000000;
   text-decoration: none;
@@ -141,8 +141,9 @@ a {
 .bottom-left-info {
   position: absolute;
   bottom: 18%;
-  left: 16px;
+  left: 14px;
   color: #777070;
+  font-size: 4vw;
   text-decoration: none;
   text-transform: capitalize;
 }
